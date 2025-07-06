@@ -1,18 +1,13 @@
 {
-  "name": "suno-clone-backend",
+  "name": "suno-clone-frontend",
   "version": "1.0.0",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "main": "src/index.js",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "cloudinary": "^1.37.3",
-    "dotenv": "^16.3.1",
-    "express": "^4.18.2",
-    "fs": "0.0.1-security",
-    "node-fetch": "^2.6.12",
-    "openai": "^4.30.0",
-    "tmp": "^0.2.1"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "^0.282.0"
+  },
+  "scripts": {
+    "start": "vite"
   }
 }
